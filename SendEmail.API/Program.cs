@@ -20,6 +20,7 @@ namespace SendEmail.API
 
             // Register Mail Service
             builder.Services.AddScoped<IMailServices, MailServices>();
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
